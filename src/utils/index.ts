@@ -29,3 +29,6 @@
  *     import { myUtil } from '../utils'
  *
  */
+export const AsNumberMatrix = (rawInput: string) => {
+    return rawInput.split('\n').map((line) => line.split(/\s+/).map(Number));
+};

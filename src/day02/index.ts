@@ -1,8 +1,5 @@
 import run from 'aocrunner';
-
-const AsNumberMatrix = (rawInput: string) => {
-    return rawInput.split('\n').map((line) => line.split(/\s+/).map(Number));
-};
+import { AsNumberMatrix } from '../utils';
 
 const isSafe = (arr: number[], tolerance = 0) => {
     if (arr.length < 2) return true;
