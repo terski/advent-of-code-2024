@@ -81,7 +81,7 @@ const masVisit = (input: string[], row: number, col: number) => {
     ];
     if (
         pattern[0] === pattern[1] ||
-        pattern[2] == pattern[3] ||
+        pattern[2] === pattern[3] ||
         pattern.some((v) => v !== 'S' && v !== 'M')
     ) {
         return 0;
