@@ -1,7 +1,7 @@
 import run from 'aocrunner';
 
 const parseInput = (rawInput: string) => {
-    rawInput.split('\n').map(Number)[0];
+    return rawInput.split('\n').map(Number)[0];
 };
 
 const part1 = (rawInput: string) => {
